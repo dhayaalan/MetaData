@@ -10,6 +10,7 @@ CORS(app)
 def download():
     data = request.get_json()
     video_url = data.get('videoUrl')
+    print(video_url,'videoUrl')
 
     try:
         ydl_opts = {
