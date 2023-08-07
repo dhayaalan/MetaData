@@ -7,7 +7,7 @@
   const respone = async () => {
     const res = await axios({
       method: 'post',
-      url: 'http://localhost:5000/',
+      url: 'http://localhost:5000/download',
       data: {
         videoUrl: videoUrl,
       },
